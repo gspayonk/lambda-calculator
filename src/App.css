@@ -1,7 +1,7 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 400px;
     border-radius: 15px;
     border: 2px solid grey;
     padding: 25px;
@@ -10,7 +10,7 @@
 .display {
     margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 360px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,4 +20,75 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+}
+
+.btn{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    margin: 3%;
+    
+
+}
+
+.btnSection {
+    margin: 0 auto;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+
+.operatorsArea .btn {
+    background-color:rgb(33, 33, 94);
+    color: white;
+    padding-top: 2px;
+}
+
+.numbersArea .btn {
+    background-color:rgb(63, 122, 177);
+    color: white;
+    padding-top: 2px;
+}
+
+.specialsArea .btn {
+    background-color:rgb(39, 67, 94);
+    color: white;
+    padding-top: 2px;
+}
+
+.operatorsArea {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    height: 318px;
+    margin-left: -205px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    margin-top: 18px;
+}
+
+.App {
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: space-evenly;
+    align-content: center; */
+    width: 75%;
+
+}
+.numbersArea{
+    display: flex;
+    flex-flow: row wrap;
+    width: 55%;
+}
+.btn:nth-child(10) {
+    width: 110px;
+}
+
+.specialsArea {
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: -50px;
 }
